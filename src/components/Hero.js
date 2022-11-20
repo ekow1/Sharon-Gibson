@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='lg:max-h-[95vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+      className='h-[95vh]  flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-28 lg:py-0 overflow-hidden '
     >
-      <div className='container mx-auto h-full'>
+      <div className='container mx-auto '>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-lg text-white text-md mt-[20px]'>

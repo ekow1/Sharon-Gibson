@@ -6,8 +6,8 @@ import { contact } from '../data';
 
 const Contact = () => {
   return (
-    <section className='section bg-hero' id='contact'>
-      <div className='container mx-auto '>
+    <section className='section ' id='contact'>
+      <div className='container mx-auto mt-20 lg:mt-5'>
         <div className='flex flex-col items-center text-center mb-12'>
           <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
             Contact me
