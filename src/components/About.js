@@ -5,7 +5,7 @@ import Image from '../assets/img/sharon.JPG';
 
 const About = () => {
   return (
-    <section className='section bg-primary px-20 ' >
+    <section className='section bg-primary lg:px-20 ' >
       <div className='container mx-auto '>
         <div className='flex flex-col xl:flex-row lg:gap-x-24 '>
           <img
@@ -13,7 +13,7 @@ const About = () => {
             src={Image}
             alt=''
           />
-          <div className='flex flex-col items-center text-center lg:items-start lg:text-left mt-20'>
+          <div className='flex flex-col items-center text-leftr lg:items-start lg:text-left mt-20'>
             <div className='flex flex-col'>
               <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block'>
                 Sharon Gibson

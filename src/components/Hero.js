@@ -12,13 +12,13 @@ const Hero = () => {
       <div className='container mx-auto '>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
-            <p className='text-lg text-white text-md mt-[20px]'>
+            <p className='text-2xl text-white lg:text-md mt-[20px]  lg:mb-0 mb-5'>
               Hey, I'm Sharon ! 👋
             </p>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-8xl lg:leading-[1] font-bold md:tracking-[-2px] '>
+            <h1 className='text-5xl leading-[44px] md:text-5xl md:leading-tight lg:text-8xl lg:leading-[1] font-bold md:tracking-[-2px] mb-10 lg:mb-0  '>
               Mind <br /> <span className='text-yellow-600'> Simulating  </span>   <br />Poems.
             </h1>
-            <p className='pt-4 pb-5 md:pt-6 md:pb-10 max-w-[480px] text-lg text-center lg:text-left'>
+            <p className='pt-4 pb-5 md:pt-6 md:pb-10 max-w-[480px] lg:text-lg text-xl text-center lg:text-left'>
               A poet and mindset coach
             </p>
             <div className=' flex flex-col lg:flex-row gap-3 text-sm md: text-md   '>
