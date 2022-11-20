@@ -5,7 +5,7 @@ import Image from '../assets/img/sharon.JPG';
 
 const About = () => {
   return (
-    <section className='section bg-primary lg:px-20 ' >
+    <section className='section bg-primary lg:px-20 h-screen' >
       <div className='container mx-auto '>
         <div className='flex flex-col xl:flex-row lg:gap-x-24 '>
           <img

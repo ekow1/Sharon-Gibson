@@ -52,10 +52,10 @@ const Contact = () => {
             ></textarea>
            
             <div className=' flex  lg:flex-row gap-3 text-xs md:text-md   '>
-            <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg transition-all w-48'>
+            <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg transition-all w-48 text-zinc-900 font-bold'>
               Get in Touch
             </button>
-            <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  lg:text-md text-zinc-900 font-bold'>
+            <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  lg:text-md text-zinc-900 font-bold w-48'>
              Book a free  <br />  talk session with me
             </button>
 

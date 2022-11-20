@@ -12,7 +12,7 @@ const Hero = () => {
       <div className='container mx-auto '>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
-            <p className='text-2xl text-white lg:text-md mt-[20px]  lg:mb-0 mb-5'>
+            <p className='text-2xl text-white lg:text-sm mt-[20px]  lg:mb-0 mb-5'>
               Hey, I'm Sharon ! 👋
             </p>
             <h1 className='text-5xl leading-[44px] md:text-5xl md:leading-tight lg:text-8xl lg:leading-[1] font-bold md:tracking-[-2px] mb-10 lg:mb-0  '>
@@ -22,10 +22,10 @@ const Hero = () => {
               A poet and mindset coach
             </p>
             <div className=' flex flex-col lg:flex-row gap-3 text-sm md: text-md   '>
-            <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg transition-all w-48'>
+            <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg transition-all w-48 text-zinc-900 font-bold'>
               Buy my book
             </button>
-            <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  text-zinc-900 font-bold'>
+            <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  text-zinc-900 font-bold w-48'>
              Book a free  <br />  talk session with me
             </button>
 
