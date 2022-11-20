@@ -32,7 +32,7 @@ const Projects = () => {
   return (
     <div>
       {/* projects nav */}
-      <nav className='mb-12 max-w-xl mx-auto'>
+      <nav className='mb-8 max-w-xl mx-auto mt-10'>
         <ul className='flex flex-col md:flex-row justify-evenly items-center text-white'>
           {projectsNav.map((item, index) => {
             return (

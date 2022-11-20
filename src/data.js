@@ -10,6 +10,8 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiFacebook,
+  FiLinkedin
 } from 'react-icons/fi';
 
 // companies icons
@@ -20,8 +22,8 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
+import Project1 from './assets/img/projects/mind.jpg';
+import Project2 from './assets/img/projects/p1.webp';
 import Project3 from './assets/img/projects/p3.webp';
 import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
@@ -46,23 +48,15 @@ import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 export const navigation = [
   {
     name: 'home',
-    href: 'home',
+    href: '/',
   },
   {
     name: 'about',
-    href: 'about',
+    href: '/about',
   },
   {
     name: 'portfolio',
-    href: 'portfolio',
-  },
-  {
-    name: 'services',
-    href: 'services',
-  },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
+    href: '/work',
   },
   {
     name: 'contact',
@@ -74,20 +68,22 @@ export const navigation = [
 export const social = [
   {
     icon: <FiYoutube />,
-    href: '',
+    href: 'https://www.youtube.com/@iamsharongibson',
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://instagram.com/iamsharongibson?igshid=YmMyMTA2M2Y=',
   },
   {
-    icon: <FiGithub />,
-    href: '',
+    icon: <FiFacebook />,
+    href: 'https://www.facebook.com/iamsharongibson',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiLinkedin/>,
+    href: 'https://www.linkedin.com/in/iamsharongibson',
   },
+
+
 ];
 
 // companies
@@ -119,39 +115,18 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Mind Simulating Poem',
+    category: 'Book',
+    action : 'Purchase'
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: 'Podcast',
+    category: 'Podcast',
+    action : 'Listen'
   },
-  {
-    id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
+ 
 ];
 
 // projects
@@ -160,10 +135,10 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'Book',
   },
   {
-    name: 'web development',
+    name: 'Podcast',
   },
   {
     name: 'branding',
@@ -257,12 +232,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at ebelegibson@gmail.com ',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Bordeaux,France',
     description: 'Serving clients worldwide',
   },
 ];

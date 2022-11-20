@@ -14,7 +14,7 @@ import Socials from './Socials';
 import { motion } from 'framer-motion';
 
 // import Link
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,9 +79,9 @@ const NavMobile = () => {
             <li key={idx} className='mb-8'>
               <Link
                 to={item.href}
-                smooth={true}
-                duration={500}
-                offset={-70}
+                
+        
+                onClick={() => setIsOpen(false)}
                 className='text-xl cursor-pointer capitalize'
               >
                 {item.name}

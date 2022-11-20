@@ -12,21 +12,15 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import BackTopBtn from './components/BackTopBtn';
+import Home from './components/Home';
+import Routing from './components/Routing';
 
 const App = () => {
   return (
-    <div className='bg-white relative'>
-      <Header />
-      <Hero />
-      <Brands />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Services />
-      <Testimonials />
-      <Contact />
-      <Footer />
-      <BackTopBtn />
+    <div className='relative bg-purple-900 max-h-screen'>
+      
+      <Routing />
+     
     </div>
   );
 };

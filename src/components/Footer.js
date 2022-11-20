@@ -8,10 +8,10 @@ import Logo from '../assets/img/logo.svg';
 
 const Footer = () => {
   return (
-    <footer className='bg-tertiary py-12'>
-      <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between'>
-          <div className='flex space-x-6 items-center justify-center'>
+    <footer className='bg-primary py-2'>
+      <div className='container mx-auto backdrop-blur-sm backdrop-opacity-60'>
+        <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-center'>
+          {/* <div className='flex space-x-6 items-center justify-center '>
             {social.map((item, index) => {
               const { href, icon } = item;
               return (
@@ -20,12 +20,12 @@ const Footer = () => {
                 </a>
               );
             })}
-          </div>
+          </div> */}
           <div>
-            <img src={Logo} alt='' />
+            {/* <img src={Logo} alt='' /> */}
           </div>
-          <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+          <p className='text-paragraph text-white text-[15px]'>
+            &copy; 2022 Sharon Gibson. All rights reserved.
           </p>
         </div>
       </div>

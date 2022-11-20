@@ -35,6 +35,9 @@ module.exports = {
         },
         paragraph: '#878e99',
       },
+      backgroundImage : {
+        'hero' : "url ('/src/assets/img/-mg-0060-edit.JPG') "
+      }
     },
   },
   plugins: [],
