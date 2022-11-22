@@ -31,7 +31,7 @@ const Routing = () => {
 
           </Routes>
 
-         
+         <Footer />
 
         </Router>
 

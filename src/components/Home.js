@@ -8,7 +8,7 @@ const Home = () => {
     <div className=' bg-purple-900'>
         {/* <Header /> */}
         <Hero />
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className='section bg-primary lg:px-20 h-screen' >
       <div className='container mx-auto h-full '>
-        <div className='flex flex-col xl:flex-row lg:gap-x-24 '>
+        <div className='flex flex-col xl:flex-row md:flex-row lg:gap-x-24 '>
           <img
             className='hidden lg:flex flex-1  object-cover h-96 w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
             src={Image}
@@ -30,20 +30,17 @@ const About = () => {
               I started with erotic poems and gravitated towards writing more about life as I grew older and began to experience the diversity and controversies of life. 
 
               </p>
-              <p className='mb-4 text-sm'>
-              I started with erotic poems and gravitated towards writing more about life as I grew older and began to experience the diversity and controversies of life. 
-
-              </p>
+             
               <p className='mb-4 text-sm'>
               I am driven by my love for people and that is my inspiration whenever I am write. I hope to inspire you to live a very happy and fulfilling life regardless of circumstances around you, whether good or bad. 
 
               </p>
             </div>
-            <div className=' flex flex-col lg:flex-row gap-3 text-sm md: text-md   '>
-            <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg transition-all w-48'>
+            <div className=' flex flex-col lg:flex-row gap-3 text-sm md: text-md  mb-5 mt-4 '>
+            <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg text-zinc-900 font-bold transition-all w-48'>
               Buy my Book
             </button>
-            <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  text-zinc-900 font-bold'>
+            <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  text-zinc-900 font-bold w-48 '>
              Book a free  <br />  talk session with me
             </button>
 

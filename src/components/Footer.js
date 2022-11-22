@@ -25,7 +25,7 @@ const Footer = () => {
             {/* <img src={Logo} alt='' /> */}
           </div>
           <p className='text-paragraph text-white text-[15px]'>
-            &copy; 2022 Sharon Gibson. All rights reserved.
+            &copy; {new Date().getFullYear()}  Sharon Gibson. All rights reserved.
           </p>
         </div>
       </div>
