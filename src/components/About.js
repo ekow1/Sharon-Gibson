@@ -2,6 +2,7 @@ import React from 'react';
 
 // import img
 import Image from '../assets/img/sharon.JPG';
+import Calendly from './Calendly';
 
 const About = () => {
   return (
@@ -41,7 +42,7 @@ const About = () => {
               Buy my Book
             </button>
             <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  text-zinc-900 font-bold w-48 '>
-             Book a free  <br />  talk session with me
+          <Calendly />
             </button>
 
             </div>
