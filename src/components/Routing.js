@@ -1,11 +1,12 @@
 import React from 'react'
 
-import {BrowserRouter as Router } from 'react-router-dom'
-
-import AnimatedRoutes from './AnimatedRoutes'
-
-
-
+import {BrowserRouter as Router , Routes ,Route} from 'react-router-dom'
+import About from './About'
+import Contact from './Contact'
+import Footer from './Footer'
+import Header from './Header'
+import Home from './Home'
+import Portfolio from './Portfolio'
 
 const Routing = () => {
   return (
@@ -13,12 +14,24 @@ const Routing = () => {
 
 <Router>
           
-      
+       <Header />
        
 
-           <AnimatedRoutes />
+          <Routes >
+              
 
-         
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/work" element={<Portfolio />} />
+              <Route path="/contact" element={<Contact />} />
+           
+            
+
+              
+
+          </Routes>
+
+         <Footer />
 
         </Router>
 
