@@ -3,12 +3,17 @@ import React from 'react';
 // import woman image
 import WomanImg from '../assets/img/-mg-0060-edit.JPG';
 import Calendly from './Calendly';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section
+    <motion.section
       id='home'
-      className='h-[95vh]  flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-28 lg:py-0 overflow-hidden '
+      className='h-[96vh]  flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-28 lg:py-0 overflow-hidden '
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: .5 }}
     >
       <div className='container mx-auto '>
         <div className='flex items-center h-full pt-8'>
@@ -34,11 +39,11 @@ const Hero = () => {
             
           </div>
           <div className='hidden  lg:flex flex-1 justify-center items-center  flex items-center w-auto h-screen'>
-            <img src={WomanImg} alt='' className=' aboslute w-9/12 h-full mixed-blend-overlay' />
+            <img src={WomanImg} alt='' className=' aboslute w-11/12 h-full mixed-blend-overlay' />
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

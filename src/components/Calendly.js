@@ -1,9 +1,18 @@
 import React from 'react'
 import { PopupButton } from "react-calendly";
+import { motion } from 'framer-motion';
 
 const Calendly = () => {
   return (
-    <div className="App">
+    <motion.div className="App"
+
+    initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}
+    
+    
+    >
     <PopupButton
       url="https://calendly.com/iamsharongibson"
       /*
@@ -13,7 +22,7 @@ const Calendly = () => {
       rootElement={document.getElementById("root")}
       text="Book a free talk session with me"
     />
-  </div>
+  </motion.div>
   )
 }
 

@@ -1,12 +1,19 @@
 import React from 'react';
-
+import { motion } from 'framer-motion';
 // import components
 import Projects from './Projects';
 
 const Portfolio = () => {
   return (
-    <section id='portfolio' className='section bg-primary h-fit w-full '>
-      <div className='container mx-auto w-full mt-20 lg:mt-5'>
+    <motion.section id='portfolio' className='section bg-primary min-h-screen w-full ' 
+
+    initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: .5 }}
+    
+    >
+      <div className='container mx-auto w-full mt-20 lg:mt-5 h-full'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>
             My latest work
@@ -25,7 +32,7 @@ now, I just released my first book titled “mind stimulating poems” which is 
         </div>
         <Projects />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

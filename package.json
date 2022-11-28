@@ -1,8 +1,9 @@
 {
-  "name": "portfolio-website-main",
+  "name": "sharon-gibson",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -41,7 +42,7 @@
   "devDependencies": {
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.2",
-    "framer-motion": "^6.2.8",
+    "framer-motion": "^6.5.1",
     "postcss": "^8.4.8",
     "react-icons": "^4.3.1",
     "react-intersection-observer": "^8.33.1",

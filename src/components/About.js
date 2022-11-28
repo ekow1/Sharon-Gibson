@@ -3,10 +3,18 @@ import React from 'react';
 // import img
 import Image from '../assets/img/sharon.JPG';
 import Calendly from './Calendly';
+import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <section className='section bg-primary lg:px-20 h-screen' >
+    <motion.section className='section bg-primary lg:px-20 h-screen'   
+
+    initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: .5 }}
+    
+    >
       <div className='container mx-auto h-full '>
         <div className='flex flex-col xl:flex-row md:flex-row lg:gap-x-24 '>
           <img
@@ -14,7 +22,7 @@ const About = () => {
             src={Image}
             alt=''
           />
-          <div className='flex flex-col items-center text-leftr lg:items-start lg:text-left lg:mt-10 mt-20'>
+          <div className='flex flex-col items-center text-leftr lg:items-start lg:text-left lg:mt-10 mt-24'>
             <div className='flex flex-col'>
               <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block'>
                 Sharon Gibson
@@ -23,21 +31,21 @@ const About = () => {
               A poet and mindset coach
               </p>
               <hr className='mb-8 opacity-5' />
-              <p className='mb-4 text-sm'>
+              <p className='mb-4 text-md'>
               I am Sharon Gibson, born in Nigeria, raised in Ghana and currently living in Europe. I have been writing for over a decade now since I discovered my talent in high school; Achimota school, my alma mata in Ghana which taught me ‘ I am a living water to a thirsty land’ and that is one of the words that drives me till today. 
 
               </p>
-              <p className='mb-4 text-sm'>
+              <p className='mb-4 text-md'>
               I started with erotic poems and gravitated towards writing more about life as I grew older and began to experience the diversity and controversies of life. 
 
               </p>
              
-              <p className='mb-4 text-sm'>
+              <p className='mb-4 text-md'>
               I am driven by my love for people and that is my inspiration whenever I am write. I hope to inspire you to live a very happy and fulfilling life regardless of circumstances around you, whether good or bad. 
 
               </p>
             </div>
-            <div className=' flex flex-col lg:flex-row gap-3 text-sm md: text-md  mb-5 mt-4 '>
+            <div className=' flex flex-col lg:flex-row gap-3 text-sm md: text-md  mb-5 mt-14 '>
             <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg text-zinc-900 font-bold transition-all w-48'>
               Buy my Book
             </button>
@@ -49,7 +57,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
