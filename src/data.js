@@ -105,7 +105,7 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at ebelegibson@gmail.com ',
+    description: 'Email me at iamsharongibson@gmail.com ',
   },
   {
     icon: <FiMapPin />,
