@@ -12,7 +12,8 @@ import {
 
 // projects images
 import Project1 from './assets/img/projects/mind.jpg';
-import Project2 from './assets/img/projects/p1.webp';
+import Project2 from './assets/img/projects/apple.jpg';
+import Project3 from './assets/img/projects/sportify.png';
 
 
 // navigation
@@ -65,14 +66,24 @@ export const projectsData = [
     image: Project1,
     name: 'Mind Simulating Poem',
     category: 'Book',
-    action : 'Purchase'
+    action : 'Purchase',
+    href: 'https://www.youtube.com/@iamsharongibson',
   },
   {
     id: '2',
     image: Project2,
     name: 'Podcast',
-    category: 'Podcast',
-    action : 'Listen'
+    category: 'Apple',
+    action : 'Listen',
+    href: 'https://www.youtube.com/@iamsharongibson',
+  },
+  {
+    id: '3',
+    image: Project3,
+    name: 'Podcast',
+    category: 'Sportify',
+    action : 'Listen',
+    href: 'https://www.youtube.com/@iamsharongibson',
   },
  
 ];

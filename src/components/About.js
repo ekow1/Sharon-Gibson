@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <motion.section className='section bg-primary lg:px-20 h-screen'   
+    <motion.section className='section bg-primary lg:px-20 min-h-screen'   
 
     initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -15,7 +15,7 @@ const About = () => {
       transition={{ duration: .5 }}
     
     >
-      <div className='container mx-auto h-full '>
+      <div className='container mx-auto h-full  mb-12'>
         <div className='flex flex-col xl:flex-row md:flex-row lg:gap-x-24 '>
           <img
             className='hidden lg:flex flex-1  object-cover h-96 w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
@@ -45,7 +45,7 @@ const About = () => {
 
               </p>
             </div>
-            <div className=' flex flex-col lg:flex-row gap-3 text-sm md: text-md  mb-5 mt-14 '>
+            <div className=' flex flex-col lg:flex-row gap-3 text-sm md:text-md   mt-10'>
             <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg text-zinc-900 font-bold transition-all w-48'>
               Buy my Book
             </button>
