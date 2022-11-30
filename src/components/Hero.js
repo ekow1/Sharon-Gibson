@@ -3,6 +3,7 @@ import React from 'react';
 // import woman image
 import WomanImg from '../assets/img/-mg-0060-edit.JPG';
 import Calendly from './Calendly';
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -28,9 +29,16 @@ const Hero = () => {
               A poet and mindset coach
             </p>
             <div className=' flex flex-col lg:flex-row gap-3 text-sm md: text-md   '>
-            <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg transition-all w-48 text-zinc-900 font-bold'>
+            <Link
+                to='/work'
+                
+               
+              >
+                 <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg transition-all w-48 text-zinc-900 font-bold'>
               Buy my book
             </button>
+              </Link>
+           
             <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  text-zinc-900 font-bold w-48'>
             <Calendly />
             </button>
