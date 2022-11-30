@@ -89,7 +89,7 @@ export const projectsData = [
     id: '3',
     image: Project3,
     name: 'Podcast',
-    category: 'Sportify',
+    category: 'Spotify',
     action : 'Listen',
     href: '/',
   },

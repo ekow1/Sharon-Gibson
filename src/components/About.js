@@ -3,6 +3,8 @@ import React from 'react';
 // import img
 import Image from '../assets/img/sharon.JPG';
 import Calendly from './Calendly';
+import { Link } from 'react-router-dom'
+
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -16,9 +18,9 @@ const About = () => {
     
     >
       <div className='container mx-auto h-full  mb-12'>
-        <div className='flex flex-col xl:flex-row md:flex-row lg:gap-x-24 '>
-          <img
-            className='hidden lg:flex flex-1  object-cover h-96 w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
+        <div className='flex flex-col xl:flex-row md:flex-row lg:gap-x-24  mt-12 lg:mt-2'>
+          <img 
+            className=' lg:flex flex-1  object-cover h-96 w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
             src={Image}
             alt=''
           />
@@ -46,9 +48,15 @@ const About = () => {
               </p>
             </div>
             <div className=' flex flex-col lg:flex-row gap-3 text-sm md:text-md   mt-10'>
-            <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg text-zinc-900 font-bold transition-all w-48'>
-              Buy my Book
+            <Link
+                to='/work'
+                
+               
+              >
+                 <button className='btn btn-md bg-white text-black hover:bg-secondary-hover md:btn-lg transition-all w-48 text-zinc-900 font-bold'>
+              Buy my book
             </button>
+              </Link>
             <button className='btn btn-md bg-yellow-500 hover:bg-secondary-hover md:btn-lg transition-all  text-zinc-900 font-bold w-48 '>
           <Calendly />
             </button>

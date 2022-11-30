@@ -25,8 +25,7 @@ const Portfolio = () => {
           I have people from over 5 destinations listening to me like Ghana, united states, Germany, United Kingdom, France etc. And currently I have 210 plays all time since I started.  
           </p>
           <p className='subtitle w-full text-left text-sm mb-5'>
-          I also use my social media platforms to put a smile on people’s faces in the best way I can either on my story or on my feed
-now, I just released my first book titled “mind stimulating poems” which is a collection of some poems i wrote from 2016-2022.
+          I just released my first book titled “mind stimulating poems” which is a collection of some poems i wrote from 2016-2022.
 
           </p>
         </div>
