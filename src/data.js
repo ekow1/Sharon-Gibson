@@ -67,7 +67,7 @@ export const projectsData = [
     name: 'Mind Simulating Poem',
     category: 'Book',
     action : 'Purchase',
-    href: 'https://www.youtube.com/@iamsharongibson',
+    href: '/',
   },
   {
     id: '2',
@@ -75,7 +75,7 @@ export const projectsData = [
     name: 'Podcast',
     category: 'Apple',
     action : 'Listen',
-    href: 'https://www.youtube.com/@iamsharongibson',
+    href: 'https://podcasts.apple.com/us/podcast/being-sharon-gibson/id1640467947',
   },
   {
     id: '3',
@@ -83,7 +83,7 @@ export const projectsData = [
     name: 'Podcast',
     category: 'Sportify',
     action : 'Listen',
-    href: 'https://www.youtube.com/@iamsharongibson',
+    href: '/',
   },
  
 ];

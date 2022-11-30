@@ -39,7 +39,7 @@ const Hero = () => {
             
           </div>
           <div className='hidden  lg:flex flex-1 justify-center items-center  flex items-center w-auto h-screen'>
-            <img src={WomanImg} alt='' className=' aboslute w-11/12 h-full mixed-blend-overlay' />
+            <img src={WomanImg} alt='' className=' aboslute w-10/12 h-full mixed-blend-overlay' />
           </div>
         </div>
       </div>
